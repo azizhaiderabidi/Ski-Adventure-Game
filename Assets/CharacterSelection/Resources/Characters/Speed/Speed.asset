@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6848f506551eb448beeddc1211041db, type: 3}
+  m_Name: Speed
+  m_EditorClassIdentifier: 
+  characterName: Speed
+  characterStory: "Skate\u2019s brother. He is the youngest family member just learning
+    about speed skating and competing. He loves speed, cold weather and slick ice."
+  characterIcon: {fileID: 0}
+  isInstantiated: 0
+  characterPrefab: {fileID: 527051065697071146, guid: 0a7f8e84d5640c14a96ab84eb4941e8b, type: 3}
+  isUnlockedByDefault: 0
+  unlockRequriment: 6
+  price: 600
+  isSpecial: 0
+  skins:
+  - {fileID: 11400000, guid: 607cd6d9fe38603429bd8f8a4b409907, type: 2}
+  - {fileID: 11400000, guid: 8b910b7e6fec59b43b39e0ab71d6cdf3, type: 2}
+  - {fileID: 11400000, guid: c48a583019d02e84cbb907ec95226968, type: 2}
+  material: {fileID: 2100000, guid: 33d3d41678acfdd42ab202bb5aaf7a78, type: 2}
+  animateScale: {x: 0.66, y: 0.66, z: 0.66}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6848f506551eb448beeddc1211041db, type: 3}
+  m_Name: Ship
+  m_EditorClassIdentifier: 
+  characterName: Ship
+  characterStory: + 50 Speed
+  characterIcon: {fileID: 0}
+  isInstantiated: 0
+  characterPrefab: {fileID: 4281469760641972355, guid: 832e89bafa7cba246b0faed3d92bf629, type: 3}
+  isUnlockedByDefault: 0
+  unlockRequriment: 0
+  price: 500
+  isSpecial: 0
+  skins: []
+  material: {fileID: 0}
+  animateScale: {x: 1, y: 1, z: 1}

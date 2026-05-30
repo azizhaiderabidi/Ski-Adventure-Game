@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://theaniletes-aa28f-default-rtdb.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">464269285133</string>
+  <string name="google_storage_bucket" translatable="false">theaniletes-aa28f.firebasestorage.app</string>
+  <string name="project_id" translatable="false">theaniletes-aa28f</string>
+  <string name="google_api_key" translatable="false">AIzaSyAy7jee9cF79CpDR_dU-MFLuzymadTc0NA</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAy7jee9cF79CpDR_dU-MFLuzymadTc0NA</string>
+  <string name="google_app_id" translatable="false">1:464269285133:android:a5f06e5b9803da66344244</string>
+  <string name="default_android_client_id" translatable="false">464269285133-esn63bfrrl04nb8re2t4jcl2lpi37c9d.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">464269285133-uk74dvpaibenqldsabbbihk1os5vgut6.apps.googleusercontent.com</string>
+</resources>

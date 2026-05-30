@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "464269285133",
+    "firebase_url": "https://theaniletes-aa28f-default-rtdb.firebaseio.com",
+    "project_id": "theaniletes-aa28f",
+    "storage_bucket": "theaniletes-aa28f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464269285133:android:a5f06e5b9803da66344244",
+        "android_client_info": {
+          "package_name": "com.the.aniletes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464269285133-esn63bfrrl04nb8re2t4jcl2lpi37c9d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.the.aniletes",
+            "certificate_hash": "344a73e1faa65e7ab9ca8fb8d756b677d4b143bc"
+          }
+        },
+        {
+          "client_id": "464269285133-uk74dvpaibenqldsabbbihk1os5vgut6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy7jee9cF79CpDR_dU-MFLuzymadTc0NA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464269285133-uk74dvpaibenqldsabbbihk1os5vgut6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "464269285133-dd5832da4cgdiro6uraupoeava5cu99f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.the.aniletes"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

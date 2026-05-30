@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6848f506551eb448beeddc1211041db, type: 3}
+  m_Name: Stone
+  m_EditorClassIdentifier: 
+  characterName: Stone
+  characterStory: "Stone\u2019s lifestyle is like his sport \u2013 slow, direct and
+    always patient. He moves slowly and conservatively. He is a plodder."
+  characterIcon: {fileID: 0}
+  isInstantiated: 0
+  characterPrefab: {fileID: 4636757431627906048, guid: 6fd7a04d21465484595701164d7b2716, type: 3}
+  isUnlockedByDefault: 0
+  unlockRequriment: 7
+  price: 700
+  isSpecial: 0
+  skins:
+  - {fileID: 11400000, guid: f101bfc6791d83248b6705c8c9d4acec, type: 2}
+  - {fileID: 11400000, guid: e1d6ba1ec16fa5a4a8d3664b1535aabd, type: 2}
+  - {fileID: 11400000, guid: e6f0019e936eccd4fa92348e3fc9c4a3, type: 2}
+  material: {fileID: 2100000, guid: a650533c61987468393d3095276645e2, type: 2}
+  animateScale: {x: 0.75, y: 0.75, z: 0.75}

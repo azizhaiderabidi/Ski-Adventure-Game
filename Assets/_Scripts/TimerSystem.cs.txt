@@ -1,0 +1,93 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class TimerSystem : MonoBehaviour
+{
+    public static TimerSystem instance;
+    private void Awake()
+    {
+        instance = this;
+    }
+
+
+    List<Timer> timers = new List<Timer>();
+
+    private void LateUpdate()
+    {
+        for (int i = 0; i < timers.Count; i++)
+        {
+            if (timers[i] != null)
+                timers[i].Tick();
+
+        }
+    }
+
+    public void AddTimer(Timer timer)
+    {
+        timers.Add(timer);
+    }
+    public void RemoveTimer(Timer timer)
+    {
+        if(timers.Contains(timer))
+            timers.Remove(timer);
+    }
+
+}
+
+[Serializable]
+public class Timer
+{
+    public float Time;
+    public float StopAt;
+
+    public Action OnCompleted;
+    public Action OnTick;
+
+    public bool IsRunning { get; private set; }
+
+    public Timer(float time , Action OnCompleted)
+    {
+        Time = 0;
+        StopAt = time;
+
+        IsRunning = true;
+
+        TimerSystem.instance.AddTimer(this);
+
+        this.OnCompleted = OnCompleted;
+
+        this.OnCompleted += () => IsRunning = false;
+    }
+
+    public void Tick()
+    {
+        if (!IsRunning) return;
+
+        Time += UnityEngine.Time.deltaTime;
+
+        if (Time > StopAt)
+        {
+            OnCompleted?.Invoke();
+
+            Kill();
+        }
+
+        OnTick?.Invoke();
+    }
+
+    public void Kill()
+    {
+        TimerSystem.instance.RemoveTimer(this);
+    }
+
+    public void ForceComplete()
+    {
+        Time += StopAt;
+        IsRunning = false;
+
+        OnCompleted?.Invoke();
+
+    }
+}

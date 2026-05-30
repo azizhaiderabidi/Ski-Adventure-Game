@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6848f506551eb448beeddc1211041db, type: 3}
+  m_Name: Puck
+  m_EditorClassIdentifier: 
+  characterName: Puck
+  characterStory: Puck is always on the move. He moves swiftly and with direction.
+    His home is the goal, his bed is the net, and his playground is the ice.
+  characterIcon: {fileID: 0}
+  isInstantiated: 0
+  characterPrefab: {fileID: 5380614714061593927, guid: 1921790437c3a6747aa6623211d54717, type: 3}
+  isUnlockedByDefault: 0
+  unlockRequriment: 3
+  price: 300
+  isSpecial: 0
+  skins:
+  - {fileID: 11400000, guid: cbc4e14cc06f95b478a07bda945fd7f9, type: 2}
+  - {fileID: 11400000, guid: afe2f39afefb46941a129fcbeae23ad8, type: 2}
+  - {fileID: 11400000, guid: d5d0a03a7036ad64a8f6c1565ba39b3b, type: 2}
+  material: {fileID: 2100000, guid: 66e2a750b8d84408a8062916d4401ffd, type: 2}
+  animateScale: {x: 1, y: 1, z: 1}

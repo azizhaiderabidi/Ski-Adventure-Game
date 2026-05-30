@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6848f506551eb448beeddc1211041db, type: 3}
+  m_Name: Ski
+  m_EditorClassIdentifier: 
+  characterName: Ski
+  characterStory: "Ski is always moving and in a hurry to get places.  He has non-stop
+    energy.  He loves speed.  He loves the beauty of the mountains and always takes
+    the time to smell the fresh air and to \u201Csmell the roses.\u201D "
+  characterIcon: {fileID: 0}
+  isInstantiated: 0
+  characterPrefab: {fileID: 9048526631699144757, guid: 104df36c70afbea47ab7a8a72e4a39a0, type: 3}
+  isUnlockedByDefault: 0
+  unlockRequriment: 8
+  price: 800
+  isSpecial: 0
+  skins:
+  - {fileID: 11400000, guid: a45b6477aa2cb504b8b8dd0d939346fa, type: 2}
+  - {fileID: 11400000, guid: fc709560034a7334a9c8cbb9352d529f, type: 2}
+  - {fileID: 11400000, guid: f4ecccce19e87514298c1add6b1a9eb5, type: 2}
+  material: {fileID: 2100000, guid: 5beea4501b712414d9cb29742f3819e5, type: 2}
+  animateScale: {x: 1, y: 1, z: 1}

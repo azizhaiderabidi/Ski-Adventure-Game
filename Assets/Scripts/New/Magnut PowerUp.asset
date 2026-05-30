@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aecca8f2d989434a9df5415f26884ba, type: 3}
+  m_Name: Magnut PowerUp
+  m_EditorClassIdentifier: 
+  powerUpType: 1
+  spawnChance: 0.8
+  collectVFX: 1
+  collectSound: {fileID: 8300000, guid: 9dbab5b46dad93847bcfa4165955940f, type: 3}
